@@ -31,7 +31,7 @@ while contador < len(listas):
 def sumar(a, b, c = 100):
     return (a + b) * c
 
-print(sumar(1, 2, 4))
+sumar(1, 2, 3)
 
 
 class Usuario:
@@ -48,3 +48,6 @@ class Usuario:
 user = Usuario('Martin', 20, 'asd@asd.com')
 
 user2 = Usuario('Matias', 20, 'aioijw@oiajd.com')
+
+
+
